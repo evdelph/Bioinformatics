@@ -1,5 +1,5 @@
 #! /home/i519/anaconda3/bin/python# 
-Import libraries 
+# Import libraries 
 import argparse
 from Bio import SeqIO
 from Bio.SubsMat import MatrixInfo
@@ -41,6 +41,6 @@ def print_matrix(m):
 		row = ""
 		for j in i:
 			row+=str(j)+'\t'
-		  print(row)
+		print(row)
 
 print_matrix(m)
