@@ -1,0 +1,32 @@
+Data in a snapshot
+
+read length: 170
+coverage = 20
+N50: 50
+
+I used quast module to calculate N50. Below shows the report generated from the commands.
+
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    contigs
+# contigs (>= 0 bp)         25
+# contigs (>= 1000 bp)      18
+# contigs (>= 5000 bp)      12
+# contigs (>= 10000 bp)     11
+# contigs (>= 25000 bp)     7
+# contigs (>= 50000 bp)     6
+Total length (>= 0 bp)      993647
+Total length (>= 1000 bp)   991969
+Total length (>= 5000 bp)   978377
+Total length (>= 10000 bp)  971672
+Total length (>= 25000 bp)  908488
+Total length (>= 50000 bp)  876117
+# contigs                   19
+Largest contig              237478
+Total length                992672
+GC (%)                      51.42
+N50                         173798
+N75                         78653
+L50                         3
+L75                         5
+# N's per 100 kbp           0.00
