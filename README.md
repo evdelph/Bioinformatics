@@ -89,3 +89,23 @@ State Results: MEEEEEEEEEEEEEEEEEEMEMEEEEEEEEEEEEEEEEMEEEEEEEEEEEEEEM
 Output Results: TTHTTHTTTHHTTTTTTTTTHTHTTTTTTTTTTTTTHTHTHTHTTTTTTTTTTT
 {'%H': 0.19, '%T': 0.81}
 ```
+## Project 5: TBA
+
+### Part 1: Build a Read Simulator
+The file read_simulator.py simulates short reads from a genome. It takes a genome (in fasta format) as an input, and then does the following:
+
+* Introduces mutations (at the given rate )
+* Sample reads of given length and number
+* Introduces technical errors (at the given rate)
+
+Finally, the reads are written to a fasta file. You call the script like this:
+```
+simulate_reads -g <genome_file> -m <mutation_rate> -e <error_rate> -n <number_of_reads> -l <length_of_reads> -o <output_file>
+```
+Biopython libraries were used for the simulation.
+
+### Part 2: Map Simulated Reads Back to Genome
+By using SAMtools/Tview, the next part was to look at the alignments. The report is found in HW4.pdf. It analyzes the mutations and technical alignments with the reads that were broken up in the previous step (part 1) were mapped back to that same genome. The report includes tview and coverage plot visualizations.
+
+### Part 3: Assemble Genomes from Short Reads
+This required using a super computer to submit a job. The results are located in the N50.fa and scafolds-1.fasta files.
