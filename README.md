@@ -89,7 +89,7 @@ State Results: MEEEEEEEEEEEEEEEEEEMEMEEEEEEEEEEEEEEEEMEEEEEEEEEEEEEEM
 Output Results: TTHTTHTTTHHTTTTTTTTTHTHTTTTTTTTTTTTTHTHTHTHTTTTTTTTTTT
 {'%H': 0.19, '%T': 0.81}
 ```
-## Project 5: TBA
+## Project 5: Mapping Reads Back to Genomes
 
 ### Part 1: Build a Read Simulator
 The file read_simulator.py simulates short reads from a genome. It takes a genome (in fasta format) as an input, and then does the following:
